@@ -1,0 +1,21 @@
+## Create 
+
+- bundle gem ok_acl 
+
+## Gem name
+
+- ok_acl.gemspec
+
+## Generate Gemspec
+
+- gem build ok_acl.gemspec
+
+## Install gem in my local
+
+- gem install ./ok_acl-0.0.0.gem
+
+## Use to gem
+
+- irb
+- require 'ok_acl'
+- OkAcl.hi
