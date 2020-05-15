@@ -4,7 +4,10 @@ module OkAcl
   class Error < StandardError; end
   # Your code goes here...
 
-  def self.hi
-    puts "I'm building something great for you!"
-  end
+  def self.hi(language = "english")
+    translator = Translator.new(language)
+    translator.hi
+  end  
 end
+
+# require 'ok_acl/translator'
