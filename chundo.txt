@@ -14,8 +14,20 @@
 
 - gem install ./ok_acl-0.0.0.gem
 
+#Remove gem
+
+- gem list -r ok_acl
+
 ## Use to gem
 
 - irb
 - require 'ok_acl'
 - OkAcl.hi
+
+## Use to gem
+
+irb -Ilib -rok_acl
+
+## Use gem with executable
+
+- ruby -Ilib ./bin/ok_acl
