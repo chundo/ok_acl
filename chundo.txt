@@ -24,6 +24,10 @@
 - require 'ok_acl'
 - OkAcl.hi
 
+## Public Gem
+
+- gem push ok_acl-0.0.1.gem
+
 ## Use to gem
 
 irb -Ilib -rok_acl
