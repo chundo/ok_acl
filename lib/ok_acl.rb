@@ -2,8 +2,7 @@
 
 require 'ok_acl/version'
 require 'ok_acl/translator'
-# require 'ok_acl/railtie'
-# require 'yaffle/core_ext'
+require 'ok_acl/railtie' if defined?(Rails)
 
 module OkAcl
   class Error < StandardError; end
