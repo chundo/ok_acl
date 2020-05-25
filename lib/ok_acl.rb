@@ -1,10 +1,14 @@
-require "ok_acl/version"
+# frozen_string_literal: true
+
+require 'ok_acl/version'
 require 'ok_acl/translator'
+# require 'ok_acl/railtie'
+# require 'yaffle/core_ext'
 
 module OkAcl
   class Error < StandardError; end
   # Your code goes here...
-  
+
   # Say hi to the world!
   #
   # Example:
@@ -17,7 +21,7 @@ module OkAcl
   # Arguments:
   #   language: (String)
 
-  def self.hi(language = "en")
+  def self.hi(language = 'en')
     translator = Translator.new(language)
     translator.hi
   end

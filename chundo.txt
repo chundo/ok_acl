@@ -35,3 +35,12 @@ irb -Ilib -rok_acl
 ## Use gem with executable
 
 - ruby -Ilib ./bin/ok_acl
+
+
+https://cuppow.myshopify.com/
+https://www.deathwishcoffee.com/?variant=36163388173
+https://www.pipsnacks.com/
+https://www.hardgraft.com/
+https://soworthloving.com/
+https://www.ilovebiko.com/
+https://www.luxyhair.com/
